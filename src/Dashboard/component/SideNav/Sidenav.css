@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap");
+
+#sideNav{
+  height: 100vh;
+}
+#sideNavHeader{
+  height:120px;
+  font-size: 20px;
+  width: 330px;
+  z-index: 100;
+  box-shadow: -18px 5px 25px #4545ca !important;
+  background: #000055;
+}
+#sideNavBtn{
+  background: #000055;
+}
+#sideNavBtn p{
+  color: gray!important;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+#sideNavBtn Button{
+  background: #1C2A70;
+border-radius: 10px;
+font-family: "Oswald", sans-serif;
+font-weight: 400;
+font-size: 22px;
+display: flex;
+padding-left: 25px;
+}
+#sideNavHeader .closemenu {
+  color: rgb(0, 0, 0)!important;
+  background: #27276a;
+  position: absolute;
+  width: 100%;
+  box-shadow: -18px 5px 25px #1919688c !important;
+  z-index: 9999;
+  bottom:0;
+  font-weight: bold;
+  font-size: 42px;
+  cursor: pointer;
+}
+#sideNav NavLink{
+  text-decoration: none!important;
+}
+#DashboardLogo {
+  z-index: 100;
+  box-shadow: -18px 5px 25px #4545ca !important;
+  position: absolute;
+  width: 330px;
+  background: #000055;
+  height: 170px;
+}
+
+#DashboardLogo img {
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 16px;
+  width: 60px;
+}
+#DashboardLogo h1 {
+  margin-left: 10%;
+  font-family: "Oswald", sans-serif;
+}
+#horizontalLine{
+  margin-top: 150px!important;
+}
+
+
+
+#sidenavCard {
+  z-index: 1;
+  border-radius: 50px;
+  height: 330px !important;
+  background: rgb(3, 8, 250);
+  background: radial-gradient(
+    circle,
+    rgba(3, 8, 250, 0.7654412106639531) 0%,
+    rgba(61, 2, 157, 1) 100%
+  );
+  box-shadow: inset 20px 20px 60px #1c036e, inset -20px -20px 60px #260594;
+}
+#sidenavCard img {
+  width: 100% !important;
+  height: 40% !important;
+}
+
+
+
+
+

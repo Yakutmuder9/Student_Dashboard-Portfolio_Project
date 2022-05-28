@@ -1,0 +1,82 @@
+/*----------------Roller-------------------*/
+ .roller {
+  position: absolute;
+  width: 2000px;
+  height: 2000px;
+  right: 50vw;
+  transform: translate(3%, -35%);
+  background: radial-gradient(50% 50% at 64.38% 50%, #364596 0%, #0b1b6d 100%);
+  border-radius: 50%;
+  transition: .3s ease-in-out;
+  z-index: 10;
+}
+.rollerTransition{
+    transform: translate(105%, -35%);
+    
+}
+
+
+.signupImage {
+  position: absolute;
+  z-index: 100;
+  overflow-y: hidden !important;
+}
+.modal-content {
+  overflow-y: hidden !important;
+}
+
+form button{
+    background: #0b1b6d!important;
+}
+.signupImage  {
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    display: none;
+}
+.signupImage img {
+    margin-left: 5vmin;
+    width: 40vw;
+    height: 40vh;
+}
+#exampleInputEmail1, #exampleInputPassword1{
+    background: rgba(206, 206, 206, 0.753);
+    border: none;
+    outline: none;
+    height: 70px;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    padding: 15px 10px 15px 20px;
+}
+form label{
+    font-size: 1.8rem;
+}
+#right-cont h1{
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #0b1b6d!important;
+}
+#signUpPositioning{
+    border: none!important;
+    z-index: 1;
+
+}
+#signupFirsttname, #signupLasttname{
+    background: rgba(206, 206, 206, 0.753);
+    border: none;
+    outline: none;
+     height: 70px;
+   font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 15px 10px 15px 20px;
+}
+
+
+
+
+.newUser{
+    z-index: 1000;
+}
